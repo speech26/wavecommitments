@@ -1,6 +1,5 @@
 datasets/*
 models/*
-libs/*
 embeddings/*
 *checkpoints*
 analysis/captum/er/integrated_gradients/Ses*
@@ -11,3 +10,9 @@ commitments/*
 *.pyc
 tests
 tests*
+*.pt
+*.json
+*.npy
+*target*
+*__pycache__*
+*.pyc
