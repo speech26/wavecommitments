@@ -1,0 +1,11 @@
+datasets/*
+models/*
+libs/*
+embeddings/*
+*checkpoints*
+analysis/captum/er/integrated_gradients/Ses*
+*__pycache__*
+*.pyc
+temp/*
+commitments/*
+*.pyc
