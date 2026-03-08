@@ -1,0 +1,12 @@
+{
+  "checkpoints": [
+    "/home/ob3942/repos/WaveCommit/analysis/captum/er/tracin/checkpoints/checkpoint_epoch_1.pt",
+    "/home/ob3942/repos/WaveCommit/analysis/captum/er/tracin/checkpoints/checkpoint_epoch_2.pt",
+    "/home/ob3942/repos/WaveCommit/analysis/captum/er/tracin/checkpoints/checkpoint_epoch_3.pt",
+    "/home/ob3942/repos/WaveCommit/analysis/captum/er/tracin/checkpoints/checkpoint_epoch_4.pt",
+    "/home/ob3942/repos/WaveCommit/analysis/captum/er/tracin/checkpoints/checkpoint_epoch_5.pt"
+  ],
+  "epochs": 5,
+  "head": "er",
+  "num_classes": 4
+}

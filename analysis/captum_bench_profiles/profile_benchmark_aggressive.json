@@ -1,0 +1,30 @@
+{
+  "dataset": "iemocap",
+  "head": "sid",
+  "task": "speaker",
+  "profile_set": "aggressive",
+  "results": [
+    {
+      "profile_name": "aggr_1gpu_jobs4_overlap",
+      "return_code": 0,
+      "wall_time_seconds": 4341.408679962158,
+      "summary_elapsed_seconds": 4334.51980304718,
+      "parallel_jobs_requested": 4,
+      "parallel_jobs_effective": 4,
+      "single_gpu_concurrency_enabled": true,
+      "joblib_backend": "loky",
+      "summary_path": "/home/ob3942/repos/WaveCommit/analysis/captum_bench_profiles/aggr_1gpu_jobs4_overlap/sid/data_shapley/pydvl_data_shapley_summary.json"
+    },
+    {
+      "profile_name": "aggr_1gpu_jobs8_overlap",
+      "return_code": 0,
+      "wall_time_seconds": 298.050484418869,
+      "summary_elapsed_seconds": 290.5462329387665,
+      "parallel_jobs_requested": 8,
+      "parallel_jobs_effective": 8,
+      "single_gpu_concurrency_enabled": true,
+      "joblib_backend": "loky",
+      "summary_path": "/home/ob3942/repos/WaveCommit/analysis/captum_bench_profiles/aggr_1gpu_jobs8_overlap/sid/data_shapley/pydvl_data_shapley_summary.json"
+    }
+  ]
+}

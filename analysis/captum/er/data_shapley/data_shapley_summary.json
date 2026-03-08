@@ -1,0 +1,375 @@
+{
+  "method": "data_shapley",
+  "n_permutations": 100,
+  "num_speakers": 16,
+  "speakers": {
+    "dr1-fvmh0": {
+      "speaker_id": "dr1-fvmh0",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.02739478951692581,
+      "intra_shapley_std": 0.006905771397494435,
+      "inter_shapley_mean": 0.10274875164031982,
+      "inter_shapley_std": 0.06104099170326581,
+      "top_intra_indices": [
+        9,
+        7,
+        4,
+        1,
+        5
+      ],
+      "top_inter_indices": [
+        7,
+        9,
+        8,
+        5,
+        1
+      ],
+      "gpu_id": 0
+    },
+    "dr1-mcpm0": {
+      "speaker_id": "dr1-mcpm0",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.027951820224523548,
+      "intra_shapley_std": 0.006367420605133093,
+      "inter_shapley_mean": 0.09889040952920913,
+      "inter_shapley_std": 0.0975142508352765,
+      "top_intra_indices": [
+        5,
+        7,
+        6,
+        8,
+        3
+      ],
+      "top_inter_indices": [
+        9,
+        8,
+        2,
+        6,
+        3
+      ],
+      "gpu_id": 1
+    },
+    "dr2-faem0": {
+      "speaker_id": "dr2-faem0",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.0279289428293705,
+      "intra_shapley_std": 0.006208607506057153,
+      "inter_shapley_mean": 0.09033167356252671,
+      "inter_shapley_std": 0.06746521942054975,
+      "top_intra_indices": [
+        3,
+        4,
+        6,
+        9,
+        1
+      ],
+      "top_inter_indices": [
+        7,
+        5,
+        8,
+        4,
+        9
+      ],
+      "gpu_id": 2
+    },
+    "dr2-marc0": {
+      "speaker_id": "dr2-marc0",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.02763594824075699,
+      "intra_shapley_std": 0.005372319876445115,
+      "inter_shapley_mean": 0.09150076508522034,
+      "inter_shapley_std": 0.07209060640321607,
+      "top_intra_indices": [
+        8,
+        3,
+        1,
+        6,
+        7
+      ],
+      "top_inter_indices": [
+        2,
+        1,
+        8,
+        7,
+        0
+      ],
+      "gpu_id": 3
+    },
+    "dr3-falk0": {
+      "speaker_id": "dr3-falk0",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.027360313475131987,
+      "intra_shapley_std": 0.007377475918331452,
+      "inter_shapley_mean": 0.08938581347465516,
+      "inter_shapley_std": 0.06812796556316371,
+      "top_intra_indices": [
+        2,
+        4,
+        6,
+        3,
+        9
+      ],
+      "top_inter_indices": [
+        3,
+        9,
+        8,
+        4,
+        6
+      ],
+      "gpu_id": 4
+    },
+    "dr3-madc0": {
+      "speaker_id": "dr3-madc0",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.027619093298912045,
+      "intra_shapley_std": 0.00746363102206576,
+      "inter_shapley_mean": 0.0853775143623352,
+      "inter_shapley_std": 0.07982446657342206,
+      "top_intra_indices": [
+        1,
+        2,
+        3,
+        8,
+        4
+      ],
+      "top_inter_indices": [
+        3,
+        6,
+        5,
+        9,
+        1
+      ],
+      "gpu_id": 5
+    },
+    "dr4-falr0": {
+      "speaker_id": "dr4-falr0",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.02843789494037628,
+      "intra_shapley_std": 0.008600864017736368,
+      "inter_shapley_mean": 0.08984962701797485,
+      "inter_shapley_std": 0.08634629630587802,
+      "top_intra_indices": [
+        2,
+        5,
+        4,
+        6,
+        7
+      ],
+      "top_inter_indices": [
+        8,
+        1,
+        4,
+        9,
+        2
+      ],
+      "gpu_id": 6
+    },
+    "dr4-maeb0": {
+      "speaker_id": "dr4-maeb0",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.027232793778181073,
+      "intra_shapley_std": 0.006901578994286893,
+      "inter_shapley_mean": 0.10448321831226348,
+      "inter_shapley_std": 0.06385519256716353,
+      "top_intra_indices": [
+        1,
+        6,
+        2,
+        9,
+        3
+      ],
+      "top_inter_indices": [
+        9,
+        5,
+        8,
+        3,
+        6
+      ],
+      "gpu_id": 7
+    },
+    "dr5-ftlg0": {
+      "speaker_id": "dr5-ftlg0",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.02785770285129547,
+      "intra_shapley_std": 0.008005771891056241,
+      "inter_shapley_mean": 0.0917791918516159,
+      "inter_shapley_std": 0.05761947537499143,
+      "top_intra_indices": [
+        4,
+        1,
+        3,
+        6,
+        0
+      ],
+      "top_inter_indices": [
+        9,
+        4,
+        7,
+        8,
+        0
+      ],
+      "gpu_id": 0
+    },
+    "dr5-mbgt0": {
+      "speaker_id": "dr5-mbgt0",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.02692777642607689,
+      "intra_shapley_std": 0.00796692814839742,
+      "inter_shapley_mean": 0.08673171430826188,
+      "inter_shapley_std": 0.062108667318665864,
+      "top_intra_indices": [
+        5,
+        1,
+        2,
+        7,
+        3
+      ],
+      "top_inter_indices": [
+        0,
+        7,
+        8,
+        9,
+        6
+      ],
+      "gpu_id": 1
+    },
+    "dr6-fapb0": {
+      "speaker_id": "dr6-fapb0",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.027805652797222136,
+      "intra_shapley_std": 0.006861065307106189,
+      "inter_shapley_mean": 0.09956729412078857,
+      "inter_shapley_std": 0.07428568459995954,
+      "top_intra_indices": [
+        7,
+        2,
+        4,
+        3,
+        9
+      ],
+      "top_inter_indices": [
+        7,
+        6,
+        3,
+        9,
+        8
+      ],
+      "gpu_id": 2
+    },
+    "dr6-mbma1": {
+      "speaker_id": "dr6-mbma1",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.02740863612294197,
+      "intra_shapley_std": 0.008725564103721712,
+      "inter_shapley_mean": 0.10642868280410767,
+      "inter_shapley_std": 0.11467936364527555,
+      "top_intra_indices": [
+        2,
+        7,
+        6,
+        9,
+        1
+      ],
+      "top_inter_indices": [
+        2,
+        1,
+        9,
+        7,
+        0
+      ],
+      "gpu_id": 3
+    },
+    "dr7-fblv0": {
+      "speaker_id": "dr7-fblv0",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.028478331625461577,
+      "intra_shapley_std": 0.008913809872710253,
+      "inter_shapley_mean": 0.08687059879302979,
+      "inter_shapley_std": 0.04167752153734309,
+      "top_intra_indices": [
+        5,
+        1,
+        8,
+        7,
+        9
+      ],
+      "top_inter_indices": [
+        4,
+        1,
+        9,
+        5,
+        3
+      ],
+      "gpu_id": 4
+    },
+    "dr7-madd0": {
+      "speaker_id": "dr7-madd0",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.02758472517132759,
+      "intra_shapley_std": 0.011751205425425853,
+      "inter_shapley_mean": 0.08548698818683623,
+      "inter_shapley_std": 0.03523040396172207,
+      "top_intra_indices": [
+        9,
+        3,
+        2,
+        7,
+        4
+      ],
+      "top_inter_indices": [
+        6,
+        5,
+        3,
+        2,
+        4
+      ],
+      "gpu_id": 5
+    },
+    "dr8-fbcg1": {
+      "speaker_id": "dr8-fbcg1",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.02805475035309792,
+      "intra_shapley_std": 0.01138206200424991,
+      "inter_shapley_mean": 0.09328017830848694,
+      "inter_shapley_std": 0.09198674298024566,
+      "top_intra_indices": [
+        2,
+        7,
+        9,
+        5,
+        6
+      ],
+      "top_inter_indices": [
+        2,
+        9,
+        3,
+        6,
+        8
+      ],
+      "gpu_id": 6
+    },
+    "dr8-mbcg0": {
+      "speaker_id": "dr8-mbcg0",
+      "num_utterances": 10,
+      "intra_shapley_mean": 0.02728729850053787,
+      "intra_shapley_std": 0.009016841373382547,
+      "inter_shapley_mean": 0.08404142266511917,
+      "inter_shapley_std": 0.06817695935741629,
+      "top_intra_indices": [
+        1,
+        7,
+        9,
+        0,
+        2
+      ],
+      "top_inter_indices": [
+        5,
+        3,
+        2,
+        4,
+        0
+      ],
+      "gpu_id": 7
+    }
+  }
+}

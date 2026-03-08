@@ -1,0 +1,1385 @@
+[
+  {
+    "dataset": "timit",
+    "speakers": [
+      "dr1-fvmh0",
+      "dr1-mcpm0",
+      "dr2-faem0",
+      "dr2-marc0",
+      "dr3-falk0",
+      "dr3-madc0",
+      "dr4-falr0",
+      "dr4-maeb0",
+      "dr5-ftlg0",
+      "dr5-mbgt0",
+      "dr6-fapb0",
+      "dr6-mbma1",
+      "dr7-fblv0",
+      "dr7-madd0",
+      "dr8-fbcg1",
+      "dr8-mbcg0"
+    ],
+    "scale_factor": 8,
+    "seed": 42,
+    "per_speaker": {
+      "PST": [
+        {
+          "speaker_id": "dr1-fvmh0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.03315633628517389,
+          "proof_gen_time_s": 0.08894935250282288,
+          "verify_time_s": 0.0042668357491493225,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "dr1-mcpm0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.031926837749779224,
+          "proof_gen_time_s": 0.09446216560900211,
+          "verify_time_s": 0.0066168345510959625,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "dr2-faem0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.037313119508326054,
+          "proof_gen_time_s": 0.09371907822787762,
+          "verify_time_s": 0.0044763581827282906,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "dr2-marc0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.0301649272441864,
+          "proof_gen_time_s": 0.08382767159491777,
+          "verify_time_s": 0.003103002905845642,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "dr3-falk0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.03319807443767786,
+          "proof_gen_time_s": 0.08081081695854664,
+          "verify_time_s": 0.00619356706738472,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "dr3-madc0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.029261277988553047,
+          "proof_gen_time_s": 0.08281887415796518,
+          "verify_time_s": 0.0060798004269599915,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "dr4-falr0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.030604545027017593,
+          "proof_gen_time_s": 0.09158765058964491,
+          "verify_time_s": 0.005374058149755001,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "dr4-maeb0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.03160918038338423,
+          "proof_gen_time_s": 0.08290714211761951,
+          "verify_time_s": 0.003465184010565281,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "dr5-ftlg0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.03180654626339674,
+          "proof_gen_time_s": 0.09820169303566217,
+          "verify_time_s": 0.006604058668017387,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "dr5-mbgt0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.032836384139955044,
+          "proof_gen_time_s": 0.09003623761236668,
+          "verify_time_s": 0.006566942669451237,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "dr6-fapb0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.028513729572296143,
+          "proof_gen_time_s": 0.0947478860616684,
+          "verify_time_s": 0.005467863753437996,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "dr6-mbma1",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.03424903657287359,
+          "proof_gen_time_s": 0.09123774524778128,
+          "verify_time_s": 0.005625667981803417,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "dr7-fblv0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.03040715493261814,
+          "proof_gen_time_s": 0.09385616518557072,
+          "verify_time_s": 0.006783746182918549,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "dr7-madd0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.03245661128312349,
+          "proof_gen_time_s": 0.08374581392854452,
+          "verify_time_s": 0.005895252339541912,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "dr8-fbcg1",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.033824519254267216,
+          "proof_gen_time_s": 0.0873844875022769,
+          "verify_time_s": 0.006552078761160374,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "dr8-mbcg0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.03978580981492996,
+          "proof_gen_time_s": 0.08157192263752222,
+          "verify_time_s": 0.00581998098641634,
+          "algorithm": "PST"
+        }
+      ],
+      "Merkle": [
+        {
+          "speaker_id": "dr1-fvmh0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4267,
+          "commit_time_s": 0.007500031962990761,
+          "proof_gen_time_s": 5.066394805908203e-06,
+          "verify_time_s": 7.974948808550835e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "dr1-mcpm0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4268,
+          "commit_time_s": 0.012791663408279419,
+          "proof_gen_time_s": 4.879198968410492e-06,
+          "verify_time_s": 7.593894246965647e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "dr2-faem0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4318,
+          "commit_time_s": 0.006909883581101894,
+          "proof_gen_time_s": 4.978850483894348e-06,
+          "verify_time_s": 8.385892435908317e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "dr2-marc0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4268,
+          "commit_time_s": 0.006593896076083183,
+          "proof_gen_time_s": 4.868954420089722e-06,
+          "verify_time_s": 7.695863097906113e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "dr3-falk0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4258,
+          "commit_time_s": 0.013666351325809956,
+          "proof_gen_time_s": 5.211681127548218e-06,
+          "verify_time_s": 7.753157410770655e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "dr3-madc0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4277,
+          "commit_time_s": 0.012816780246794224,
+          "proof_gen_time_s": 6.292015314102173e-06,
+          "verify_time_s": 7.722552921622992e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "dr4-falr0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4282,
+          "commit_time_s": 0.013736837543547153,
+          "proof_gen_time_s": 6.134621798992157e-06,
+          "verify_time_s": 7.729403860867024e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "dr4-maeb0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4288,
+          "commit_time_s": 0.014921276830136776,
+          "proof_gen_time_s": 4.725530743598938e-06,
+          "verify_time_s": 7.701497580856085e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "dr5-ftlg0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4265,
+          "commit_time_s": 0.014565873891115189,
+          "proof_gen_time_s": 5.6438148021698e-06,
+          "verify_time_s": 7.543777693063021e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "dr5-mbgt0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4298,
+          "commit_time_s": 0.01321379467844963,
+          "proof_gen_time_s": 4.5746564865112305e-06,
+          "verify_time_s": 7.651196476072072e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "dr6-fapb0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4274,
+          "commit_time_s": 0.013192347250878811,
+          "proof_gen_time_s": 5.5246055126190186e-06,
+          "verify_time_s": 7.7011295594275e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "dr6-mbma1",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4290,
+          "commit_time_s": 0.012982371263206005,
+          "proof_gen_time_s": 4.824250936508179e-06,
+          "verify_time_s": 7.72906631231308e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "dr7-fblv0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4288,
+          "commit_time_s": 0.013060849159955978,
+          "proof_gen_time_s": 5.3551048040390015e-06,
+          "verify_time_s": 7.658890932798386e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "dr7-madd0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4294,
+          "commit_time_s": 0.01242920383810997,
+          "proof_gen_time_s": 4.520639777183533e-06,
+          "verify_time_s": 7.542808707803488e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "dr8-fbcg1",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4283,
+          "commit_time_s": 0.013720544055104256,
+          "proof_gen_time_s": 3.8333237171173096e-06,
+          "verify_time_s": 7.651595696806908e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "dr8-mbcg0",
+          "total_elements": 10240,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4259,
+          "commit_time_s": 0.012796075083315372,
+          "proof_gen_time_s": 6.23706728219986e-06,
+          "verify_time_s": 7.705553732812405e-06,
+          "algorithm": "Merkle"
+        }
+      ],
+      "CleanPegasus": [
+        {
+          "speaker_id": "dr1-fvmh0",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.4258726928383112,
+          "proof_gen_time_s": 0.01289712730795145,
+          "verify_time_s": 0.024706682190299034,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "dr1-mcpm0",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.41880854219198227,
+          "proof_gen_time_s": 0.01364829856902361,
+          "verify_time_s": 0.025417258962988853,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "dr2-faem0",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.41430134419351816,
+          "proof_gen_time_s": 0.013074792921543121,
+          "verify_time_s": 0.0248352512717247,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "dr2-marc0",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.4125555111095309,
+          "proof_gen_time_s": 0.014156770892441273,
+          "verify_time_s": 0.02481231279671192,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "dr3-falk0",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.3981955396011472,
+          "proof_gen_time_s": 0.010886481031775475,
+          "verify_time_s": 0.024581546895205975,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "dr3-madc0",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.4004424111917615,
+          "proof_gen_time_s": 0.010438840836286545,
+          "verify_time_s": 0.024587668478488922,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "dr4-falr0",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.4003309877589345,
+          "proof_gen_time_s": 0.009380844421684742,
+          "verify_time_s": 0.024565677158534527,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "dr4-maeb0",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.4029308594763279,
+          "proof_gen_time_s": 0.009861514903604984,
+          "verify_time_s": 0.024611499160528183,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "dr5-ftlg0",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.4238223070278764,
+          "proof_gen_time_s": 0.018969856202602386,
+          "verify_time_s": 0.03383808396756649,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "dr5-mbgt0",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.4070996753871441,
+          "proof_gen_time_s": 0.01020745374262333,
+          "verify_time_s": 0.02435587253421545,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "dr6-fapb0",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.402469283901155,
+          "proof_gen_time_s": 0.009509557858109474,
+          "verify_time_s": 0.02458042837679386,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "dr6-mbma1",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.3958372622728348,
+          "proof_gen_time_s": 0.011726202443242073,
+          "verify_time_s": 0.024708695709705353,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "dr7-fblv0",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.4057873087003827,
+          "proof_gen_time_s": 0.012873809784650803,
+          "verify_time_s": 0.024974836967885494,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "dr7-madd0",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.41291583236306906,
+          "proof_gen_time_s": 0.010916446335613728,
+          "verify_time_s": 0.023854301311075687,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "dr8-fbcg1",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.4122486561536789,
+          "proof_gen_time_s": 0.01563082169741392,
+          "verify_time_s": 0.024511808529496193,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "dr8-mbcg0",
+          "total_elements": 32768,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 480,
+          "commit_time_s": 0.40876609925180674,
+          "proof_gen_time_s": 0.011766500771045685,
+          "verify_time_s": 0.02469038311392069,
+          "algorithm": "CleanPegasus"
+        }
+      ]
+    },
+    "root_level": [
+      {
+        "num_speakers": 16,
+        "root_commitment_bytes": 32,
+        "proof_bytes": 249,
+        "commit_time_s": 0.029876025393605232,
+        "proof_gen_time_s": 0.0013622408732771873,
+        "verify_time_s": 0.003849472850561142,
+        "algorithm": "PST (Terkle root)",
+        "proof_index": 3
+      },
+      {
+        "num_speakers": 16,
+        "root_commitment_bytes": 32,
+        "proof_bytes": 1175,
+        "commit_time_s": 3.0053779482841492e-05,
+        "proof_gen_time_s": 1.9846484065055847e-06,
+        "verify_time_s": 2.9250073432922365e-06,
+        "algorithm": "Merkle (root)",
+        "proof_index": 3
+      },
+      {
+        "num_speakers": 16,
+        "root_commitment_bytes": 48,
+        "proof_bytes": 192,
+        "commit_time_s": 0.017413546331226826,
+        "proof_gen_time_s": 0.004262558184564114,
+        "verify_time_s": 0.01727442257106304,
+        "algorithm": "CleanPegasus (root)",
+        "proof_index": 3
+      }
+    ]
+  },
+  {
+    "dataset": "iemocap",
+    "speakers": [
+      "Ses01_F",
+      "Ses01_M",
+      "Ses02_F",
+      "Ses02_M",
+      "Ses03_F",
+      "Ses03_M",
+      "Ses04_F",
+      "Ses04_M",
+      "Ses05_F",
+      "Ses05_M"
+    ],
+    "scale_factor": 8,
+    "seed": 42,
+    "per_speaker": {
+      "PST": [
+        {
+          "speaker_id": "Ses01_F",
+          "total_elements": 893952,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 1.0367984157055616,
+          "proof_gen_time_s": 2.2053733598440886,
+          "verify_time_s": 0.006784074008464813,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "Ses01_M",
+          "total_elements": 968704,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 192,
+          "commit_time_s": 1.0856582038104534,
+          "proof_gen_time_s": 2.7744692228734493,
+          "verify_time_s": 0.003029435873031616,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "Ses02_F",
+          "total_elements": 879616,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 1.0166467288509011,
+          "proof_gen_time_s": 2.2634887732565403,
+          "verify_time_s": 0.007651332765817642,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "Ses02_M",
+          "total_elements": 974848,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 192,
+          "commit_time_s": 1.1197193814441562,
+          "proof_gen_time_s": 2.8995732069015503,
+          "verify_time_s": 0.0033324863761663437,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "Ses03_F",
+          "total_elements": 1073152,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 160,
+          "commit_time_s": 1.690655879676342,
+          "proof_gen_time_s": 3.7896045530214906,
+          "verify_time_s": 0.00477243959903717,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "Ses03_M",
+          "total_elements": 1114112,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 160,
+          "commit_time_s": 1.6478143632411957,
+          "proof_gen_time_s": 3.872141054831445,
+          "verify_time_s": 0.00535961426794529,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "Ses04_F",
+          "total_elements": 1010688,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 1.1450979989022017,
+          "proof_gen_time_s": 2.414533623494208,
+          "verify_time_s": 0.004408249631524086,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "Ses04_M",
+          "total_elements": 1142784,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 160,
+          "commit_time_s": 1.5689022028818727,
+          "proof_gen_time_s": 3.890057126060128,
+          "verify_time_s": 0.006843912415206432,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "Ses05_F",
+          "total_elements": 1057792,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 160,
+          "commit_time_s": 1.6658473741263151,
+          "proof_gen_time_s": 3.9565342869609594,
+          "verify_time_s": 0.007272157818078995,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "Ses05_M",
+          "total_elements": 1164288,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 160,
+          "commit_time_s": 1.6056652590632439,
+          "proof_gen_time_s": 3.780939086340368,
+          "verify_time_s": 0.006882300600409508,
+          "algorithm": "PST"
+        }
+      ],
+      "Merkle": [
+        {
+          "speaker_id": "Ses01_F",
+          "total_elements": 893952,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 6374,
+          "commit_time_s": 0.5574942538514733,
+          "proof_gen_time_s": 4.230812191963196e-05,
+          "verify_time_s": 1.0919679440557957e-05,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "Ses01_M",
+          "total_elements": 968704,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 6401,
+          "commit_time_s": 0.5566048286855221,
+          "proof_gen_time_s": 6.92903995513916e-06,
+          "verify_time_s": 1.08014608733356e-05,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "Ses03_F",
+          "total_elements": 1073152,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 6513,
+          "commit_time_s": 0.6453156685456634,
+          "proof_gen_time_s": 4.143454134464264e-06,
+          "verify_time_s": 1.1214542482048274e-05,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "Ses03_M",
+          "total_elements": 1114112,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 6531,
+          "commit_time_s": 0.6584247332066298,
+          "proof_gen_time_s": 7.533468306064606e-06,
+          "verify_time_s": 1.1011498402804137e-05,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "Ses04_F",
+          "total_elements": 1010688,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 6435,
+          "commit_time_s": 0.5716550908982754,
+          "proof_gen_time_s": 5.532056093215942e-06,
+          "verify_time_s": 1.107189467176795e-05,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "Ses04_M",
+          "total_elements": 1142784,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 6527,
+          "commit_time_s": 0.678182702511549,
+          "proof_gen_time_s": 7.596798241138458e-06,
+          "verify_time_s": 1.1038270220160484e-05,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "Ses05_F",
+          "total_elements": 1057792,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 6582,
+          "commit_time_s": 0.6478961361572146,
+          "proof_gen_time_s": 8.137896656990051e-06,
+          "verify_time_s": 1.1082185469567776e-05,
+          "algorithm": "Merkle"
+        }
+      ],
+      "CleanPegasus": [
+        {
+          "speaker_id": "Ses01_F",
+          "total_elements": 2097152,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 672,
+          "commit_time_s": 25.263608855195343,
+          "proof_gen_time_s": 0.13964676950126886,
+          "verify_time_s": 0.035783376544713974,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "Ses01_M",
+          "total_elements": 2097152,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 672,
+          "commit_time_s": 24.5568058071658,
+          "proof_gen_time_s": 0.13807186391204596,
+          "verify_time_s": 0.03189372178167105,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "Ses03_F",
+          "total_elements": 2097152,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 672,
+          "commit_time_s": 24.427852583117783,
+          "proof_gen_time_s": 0.13440861739218235,
+          "verify_time_s": 0.0313225481659174,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "Ses03_M",
+          "total_elements": 2097152,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 672,
+          "commit_time_s": 24.661783998832107,
+          "proof_gen_time_s": 0.13881044927984476,
+          "verify_time_s": 0.03172661829739809,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "Ses04_F",
+          "total_elements": 2097152,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 672,
+          "commit_time_s": 24.283505706116557,
+          "proof_gen_time_s": 0.13561404310166836,
+          "verify_time_s": 0.0318824490532279,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "Ses04_M",
+          "total_elements": 2097152,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 672,
+          "commit_time_s": 24.236641460098326,
+          "proof_gen_time_s": 0.13220789935439825,
+          "verify_time_s": 0.032172498293221,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "Ses05_F",
+          "total_elements": 2097152,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 672,
+          "commit_time_s": 24.37709375936538,
+          "proof_gen_time_s": 0.13599043618887663,
+          "verify_time_s": 0.03163145110011101,
+          "algorithm": "CleanPegasus"
+        }
+      ]
+    },
+    "root_level": [
+      {
+        "num_speakers": 10,
+        "root_commitment_bytes": 32,
+        "proof_bytes": 185,
+        "commit_time_s": 0.03365455474704504,
+        "proof_gen_time_s": 0.00115169957280159,
+        "verify_time_s": 0.0040425751358270645,
+        "algorithm": "PST (Terkle root)",
+        "proof_index": 1
+      },
+      {
+        "num_speakers": 10,
+        "root_commitment_bytes": 32,
+        "proof_bytes": 1186,
+        "commit_time_s": 3.677885979413986e-05,
+        "proof_gen_time_s": 2.780929207801819e-06,
+        "verify_time_s": 3.12002457678318e-06,
+        "algorithm": "Merkle (root)",
+        "proof_index": 1
+      },
+      {
+        "num_speakers": 10,
+        "root_commitment_bytes": 48,
+        "proof_bytes": 192,
+        "commit_time_s": 0.031839496456086636,
+        "proof_gen_time_s": 0.00729190930724144,
+        "verify_time_s": 0.01799344550818205,
+        "algorithm": "CleanPegasus (root)",
+        "proof_index": 1
+      }
+    ]
+  },
+  {
+    "dataset": "speech_commands",
+    "speakers": [
+      "25e95412",
+      "2aca1e72",
+      "4c6944d6",
+      "57152045",
+      "5ebc1cda",
+      "5f9cd2eb",
+      "98ea0818",
+      "b4ea0d9a",
+      "b5cf6ea8",
+      "b66f4f93",
+      "c120e80e",
+      "c1d39ce8",
+      "c50f55b8",
+      "cce7416f",
+      "de89e2ca",
+      "ef3367d9"
+    ],
+    "scale_factor": 8,
+    "seed": 42,
+    "per_speaker": {
+      "PST": [
+        {
+          "speaker_id": "25e95412",
+          "total_elements": 157696,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.24442674685269594,
+          "proof_gen_time_s": 0.5090469038113952,
+          "verify_time_s": 0.0054268427193164825,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "2aca1e72",
+          "total_elements": 241664,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 160,
+          "commit_time_s": 0.34766857232898474,
+          "proof_gen_time_s": 0.8451175102964044,
+          "verify_time_s": 0.006228882819414139,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "4c6944d6",
+          "total_elements": 161792,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.29796389024704695,
+          "proof_gen_time_s": 0.574386652559042,
+          "verify_time_s": 0.006056018173694611,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "57152045",
+          "total_elements": 151552,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.22810132429003716,
+          "proof_gen_time_s": 0.5378362061455846,
+          "verify_time_s": 0.00717408861964941,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "5ebc1cda",
+          "total_elements": 186368,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.29828233178704977,
+          "proof_gen_time_s": 0.5803017672151327,
+          "verify_time_s": 0.006746224127709866,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "5f9cd2eb",
+          "total_elements": 187392,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.27112485840916634,
+          "proof_gen_time_s": 0.5577654214575887,
+          "verify_time_s": 0.004784923046827316,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "98ea0818",
+          "total_elements": 147456,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.2349038552492857,
+          "proof_gen_time_s": 0.5060323877260089,
+          "verify_time_s": 0.005519721657037735,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "b4ea0d9a",
+          "total_elements": 173056,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.2747574858367443,
+          "proof_gen_time_s": 0.5524143325164914,
+          "verify_time_s": 0.004292181693017483,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "b5cf6ea8",
+          "total_elements": 227328,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.33351627364754677,
+          "proof_gen_time_s": 0.7111931135877967,
+          "verify_time_s": 0.0051940614357590675,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "b66f4f93",
+          "total_elements": 184320,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.2782739819958806,
+          "proof_gen_time_s": 0.5683555426076055,
+          "verify_time_s": 0.005818584002554417,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "c120e80e",
+          "total_elements": 158720,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.2388552501797676,
+          "proof_gen_time_s": 0.5072458563372493,
+          "verify_time_s": 0.0036266054958105087,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "c1d39ce8",
+          "total_elements": 209920,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.3374828491359949,
+          "proof_gen_time_s": 0.7288591098040342,
+          "verify_time_s": 0.006065720692276955,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "c50f55b8",
+          "total_elements": 323584,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.40631881169974804,
+          "proof_gen_time_s": 0.9556123428046703,
+          "verify_time_s": 0.004692838527262211,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "cce7416f",
+          "total_elements": 256000,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.35074000526219606,
+          "proof_gen_time_s": 0.7948484802618623,
+          "verify_time_s": 0.005142580717802048,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "de89e2ca",
+          "total_elements": 164864,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.270536539144814,
+          "proof_gen_time_s": 0.5622090920805931,
+          "verify_time_s": 0.006450946442782879,
+          "algorithm": "PST"
+        },
+        {
+          "speaker_id": "ef3367d9",
+          "total_elements": 189440,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 128,
+          "commit_time_s": 0.27877619955688715,
+          "proof_gen_time_s": 0.5786067228764296,
+          "verify_time_s": 0.005589521490037441,
+          "algorithm": "PST"
+        }
+      ],
+      "Merkle": [
+        {
+          "speaker_id": "25e95412",
+          "total_elements": 157696,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 5549,
+          "commit_time_s": 0.09779059235006571,
+          "proof_gen_time_s": 5.383044481277466e-06,
+          "verify_time_s": 9.577250145375728e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "2aca1e72",
+          "total_elements": 241664,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 5969,
+          "commit_time_s": 0.14379201363772154,
+          "proof_gen_time_s": 8.84663313627243e-06,
+          "verify_time_s": 1.0125960502773523e-05,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "4c6944d6",
+          "total_elements": 161792,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 5547,
+          "commit_time_s": 0.09301422350108624,
+          "proof_gen_time_s": 9.529758244752884e-05,
+          "verify_time_s": 9.406423456966877e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "57152045",
+          "total_elements": 151552,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 5585,
+          "commit_time_s": 0.09373180102556944,
+          "proof_gen_time_s": 0.0001637786626815796,
+          "verify_time_s": 9.385919161140918e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "5ebc1cda",
+          "total_elements": 186368,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 5443,
+          "commit_time_s": 0.10661794897168875,
+          "proof_gen_time_s": 5.9888698160648346e-05,
+          "verify_time_s": 9.360300693660975e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "5f9cd2eb",
+          "total_elements": 187392,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 5372,
+          "commit_time_s": 0.10908405482769012,
+          "proof_gen_time_s": 9.4548799097538e-05,
+          "verify_time_s": 9.506038073450327e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "98ea0818",
+          "total_elements": 147456,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 5539,
+          "commit_time_s": 0.08375146705657244,
+          "proof_gen_time_s": 4.868023097515106e-06,
+          "verify_time_s": 9.428838975727558e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "b4ea0d9a",
+          "total_elements": 173056,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 4968,
+          "commit_time_s": 0.12481777183711529,
+          "proof_gen_time_s": 1.2412667274475098e-05,
+          "verify_time_s": 8.931362517178058e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "b5cf6ea8",
+          "total_elements": 227328,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 5846,
+          "commit_time_s": 0.1347046745941043,
+          "proof_gen_time_s": 4.02648001909256e-05,
+          "verify_time_s": 9.863269422203303e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "b66f4f93",
+          "total_elements": 184320,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 5293,
+          "commit_time_s": 0.10584415961056948,
+          "proof_gen_time_s": 3.716442734003067e-05,
+          "verify_time_s": 9.064536448568106e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "c120e80e",
+          "total_elements": 158720,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 5554,
+          "commit_time_s": 0.09131724387407303,
+          "proof_gen_time_s": 5.833432078361511e-05,
+          "verify_time_s": 9.434775449335576e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "c1d39ce8",
+          "total_elements": 209920,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 5844,
+          "commit_time_s": 0.12159155681729317,
+          "proof_gen_time_s": 0.00017515290528535843,
+          "verify_time_s": 9.659144897013902e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "c50f55b8",
+          "total_elements": 323584,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 6132,
+          "commit_time_s": 0.19460111670196056,
+          "proof_gen_time_s": 1.6915611922740936e-05,
+          "verify_time_s": 1.07447799295187e-05,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "cce7416f",
+          "total_elements": 256000,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 5920,
+          "commit_time_s": 0.14874297939240932,
+          "proof_gen_time_s": 9.667128324508667e-06,
+          "verify_time_s": 9.976972974836827e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "de89e2ca",
+          "total_elements": 164864,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 5669,
+          "commit_time_s": 0.09352306835353374,
+          "proof_gen_time_s": 1.3553537428379059e-05,
+          "verify_time_s": 9.599993526935577e-06,
+          "algorithm": "Merkle"
+        },
+        {
+          "speaker_id": "ef3367d9",
+          "total_elements": 189440,
+          "root_commitment_bytes": 32,
+          "proof_bytes": 5562,
+          "commit_time_s": 0.11090452037751675,
+          "proof_gen_time_s": 9.210687130689621e-05,
+          "verify_time_s": 9.325793329626321e-06,
+          "algorithm": "Merkle"
+        }
+      ],
+      "CleanPegasus": [
+        {
+          "speaker_id": "25e95412",
+          "total_elements": 262144,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 576,
+          "commit_time_s": 3.0251557398587465,
+          "proof_gen_time_s": 0.024735023267567158,
+          "verify_time_s": 0.02832187060266733,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "2aca1e72",
+          "total_elements": 262144,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 576,
+          "commit_time_s": 3.010094619356096,
+          "proof_gen_time_s": 0.02470220997929573,
+          "verify_time_s": 0.028277595527470112,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "4c6944d6",
+          "total_elements": 262144,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 576,
+          "commit_time_s": 3.0167179061099887,
+          "proof_gen_time_s": 0.022869473323225975,
+          "verify_time_s": 0.028165830299258232,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "57152045",
+          "total_elements": 262144,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 576,
+          "commit_time_s": 3.0204007048159838,
+          "proof_gen_time_s": 0.026421277783811092,
+          "verify_time_s": 0.0290777450427413,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "5ebc1cda",
+          "total_elements": 262144,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 576,
+          "commit_time_s": 2.9992884946987033,
+          "proof_gen_time_s": 0.025409136898815632,
+          "verify_time_s": 0.02834022417664528,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "5f9cd2eb",
+          "total_elements": 262144,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 576,
+          "commit_time_s": 3.035545887425542,
+          "proof_gen_time_s": 0.022443334572017193,
+          "verify_time_s": 0.02805070299655199,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "98ea0818",
+          "total_elements": 262144,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 576,
+          "commit_time_s": 3.0147957177832723,
+          "proof_gen_time_s": 0.02508188970386982,
+          "verify_time_s": 0.028333560563623905,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "b4ea0d9a",
+          "total_elements": 262144,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 576,
+          "commit_time_s": 3.0083837248384953,
+          "proof_gen_time_s": 0.025471040979027748,
+          "verify_time_s": 0.02870967984199524,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "b5cf6ea8",
+          "total_elements": 262144,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 576,
+          "commit_time_s": 3.0133113358169794,
+          "proof_gen_time_s": 0.02662574965506792,
+          "verify_time_s": 0.029089435003697872,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "b66f4f93",
+          "total_elements": 262144,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 576,
+          "commit_time_s": 3.0113456463441253,
+          "proof_gen_time_s": 0.024926471523940563,
+          "verify_time_s": 0.02820194698870182,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "c120e80e",
+          "total_elements": 262144,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 576,
+          "commit_time_s": 3.016767844557762,
+          "proof_gen_time_s": 0.027037547901272774,
+          "verify_time_s": 0.028285258449614048,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "c1d39ce8",
+          "total_elements": 262144,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 576,
+          "commit_time_s": 3.0141109488904476,
+          "proof_gen_time_s": 0.025982847437262535,
+          "verify_time_s": 0.02851683460175991,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "c50f55b8",
+          "total_elements": 2097152,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 672,
+          "commit_time_s": 25.55370618402958,
+          "proof_gen_time_s": 0.1441718814894557,
+          "verify_time_s": 0.03235556185245514,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "cce7416f",
+          "total_elements": 262144,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 576,
+          "commit_time_s": 3.0601427163928747,
+          "proof_gen_time_s": 0.027005614712834358,
+          "verify_time_s": 0.028327535837888718,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "de89e2ca",
+          "total_elements": 262144,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 576,
+          "commit_time_s": 3.027779390104115,
+          "proof_gen_time_s": 0.022600162774324417,
+          "verify_time_s": 0.028360414318740368,
+          "algorithm": "CleanPegasus"
+        },
+        {
+          "speaker_id": "ef3367d9",
+          "total_elements": 262144,
+          "root_commitment_bytes": 48,
+          "proof_bytes": 576,
+          "commit_time_s": 3.042633354663849,
+          "proof_gen_time_s": 0.024387415498495102,
+          "verify_time_s": 0.028293131850659847,
+          "algorithm": "CleanPegasus"
+        }
+      ]
+    },
+    "root_level": [
+      {
+        "num_speakers": 16,
+        "root_commitment_bytes": 32,
+        "proof_bytes": 249,
+        "commit_time_s": 0.02869734074920416,
+        "proof_gen_time_s": 0.0021468959748744965,
+        "verify_time_s": 0.005140025168657303,
+        "algorithm": "PST (Terkle root)",
+        "proof_index": 3
+      },
+      {
+        "num_speakers": 16,
+        "root_commitment_bytes": 32,
+        "proof_bytes": 1183,
+        "commit_time_s": 5.030538886785507e-05,
+        "proof_gen_time_s": 3.471970558166504e-06,
+        "verify_time_s": 3.0009523779153822e-06,
+        "algorithm": "Merkle (root)",
+        "proof_index": 3
+      },
+      {
+        "num_speakers": 16,
+        "root_commitment_bytes": 48,
+        "proof_bytes": 192,
+        "commit_time_s": 0.030593196861445904,
+        "proof_gen_time_s": 0.007695094682276249,
+        "verify_time_s": 0.018097042106091976,
+        "algorithm": "CleanPegasus (root)",
+        "proof_index": 3
+      }
+    ]
+  }
+]

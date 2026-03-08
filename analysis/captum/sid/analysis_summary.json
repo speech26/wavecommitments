@@ -1,0 +1,12 @@
+{
+  "dataset": "timit",
+  "head": "sid",
+  "num_samples": 160,
+  "analyses_run": [
+    "data_shapley"
+  ],
+  "gpus_used": [
+    "cpu"
+  ],
+  "memory_fraction": 0.9
+}

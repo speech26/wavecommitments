@@ -1,0 +1,509 @@
+{
+  "method": "pydvl_tmc_shapley",
+  "model_type": "finetune_superb_projector_classifier",
+  "feature_head": "sid",
+  "feature_model_path": "/home/ob3942/repos/WaveCommit/models/prediction_heads/hubert-large-superb-sid",
+  "train_device": "cuda:0",
+  "data_parallel": false,
+  "single_gpu_concurrency_enabled": true,
+  "parallel_jobs_requested": 8,
+  "parallel_jobs_effective": 8,
+  "joblib_backend": "loky",
+  "min_updates": 20,
+  "rtol": 0.12,
+  "total_train_samples": 8031,
+  "total_test_samples": 2008,
+  "dataset_name": "iemocap",
+  "task_mode": "speaker",
+  "group_type": "speaker",
+  "num_groups": 10,
+  "elapsed_seconds": 290.5462329387665,
+  "groups": {
+    "Ses01_F": {
+      "group_id": "Ses01_F",
+      "num_samples": 698,
+      "shapley_mean": -9.596285345723122e-06,
+      "shapley_std": 0.00019909910579374169,
+      "shapley_min": -0.0017430278884462158,
+      "shapley_max": 0.004357569721115538,
+      "top_indices": [
+        6,
+        515,
+        674,
+        629,
+        546
+      ],
+      "speaker_id": "Ses01_F"
+    },
+    "Ses01_M": {
+      "group_id": "Ses01_M",
+      "num_samples": 757,
+      "shapley_mean": 1.9078244485729475e-05,
+      "shapley_std": 0.00026071752764770184,
+      "shapley_min": -0.0004482071713147414,
+      "shapley_max": 0.004780876494023903,
+      "top_indices": [
+        528,
+        399,
+        636,
+        71,
+        205
+      ],
+      "speaker_id": "Ses01_M"
+    },
+    "Ses02_F": {
+      "group_id": "Ses02_F",
+      "num_samples": 687,
+      "shapley_mean": 1.475176441251007e-05,
+      "shapley_std": 0.0002938369884037715,
+      "shapley_min": -0.0004980079681274907,
+      "shapley_max": 0.004282868525896414,
+      "top_indices": [
+        178,
+        366,
+        296,
+        588,
+        295
+      ],
+      "speaker_id": "Ses02_F"
+    },
+    "Ses02_M": {
+      "group_id": "Ses02_M",
+      "num_samples": 762,
+      "shapley_mean": 1.0750959416925468e-05,
+      "shapley_std": 0.00019765921088453462,
+      "shapley_min": -0.000597609561752989,
+      "shapley_max": 0.004731075697211156,
+      "top_indices": [
+        3,
+        76,
+        608,
+        324,
+        78
+      ],
+      "speaker_id": "Ses02_M"
+    },
+    "Ses03_F": {
+      "group_id": "Ses03_F",
+      "num_samples": 838,
+      "shapley_mean": 2.5791820783691014e-05,
+      "shapley_std": 0.0003296268887281338,
+      "shapley_min": -0.0006474103585657375,
+      "shapley_max": 0.005278884462151394,
+      "top_indices": [
+        76,
+        336,
+        708,
+        225,
+        441
+      ],
+      "speaker_id": "Ses03_F"
+    },
+    "Ses03_M": {
+      "group_id": "Ses03_M",
+      "num_samples": 870,
+      "shapley_mean": 3.093946054861015e-05,
+      "shapley_std": 0.00028295502416735994,
+      "shapley_min": -0.0004482071713147414,
+      "shapley_max": 0.005552788844621515,
+      "top_indices": [
+        796,
+        106,
+        29,
+        664,
+        744
+      ],
+      "speaker_id": "Ses03_M"
+    },
+    "Ses04_F": {
+      "group_id": "Ses04_F",
+      "num_samples": 790,
+      "shapley_mean": 2.5278632306218172e-05,
+      "shapley_std": 0.00023774243055655145,
+      "shapley_min": -0.00042330677290836624,
+      "shapley_max": 0.004955179282868526,
+      "top_indices": [
+        697,
+        775,
+        578,
+        342,
+        656
+      ],
+      "speaker_id": "Ses04_F"
+    },
+    "Ses04_M": {
+      "group_id": "Ses04_M",
+      "num_samples": 893,
+      "shapley_mean": 1.120936188058516e-05,
+      "shapley_std": 0.0003370730400466765,
+      "shapley_min": -0.000896414342629482,
+      "shapley_max": 0.005577689243027889,
+      "top_indices": [
+        656,
+        182,
+        501,
+        875,
+        277
+      ],
+      "speaker_id": "Ses04_M"
+    },
+    "Ses05_F": {
+      "group_id": "Ses05_F",
+      "num_samples": 826,
+      "shapley_mean": 3.165304882166255e-06,
+      "shapley_std": 0.00020169284104385672,
+      "shapley_min": -0.0007470119521912356,
+      "shapley_max": 0.005179282868525899,
+      "top_indices": [
+        743,
+        784,
+        662,
+        182,
+        710
+      ],
+      "speaker_id": "Ses05_F"
+    },
+    "Ses05_M": {
+      "group_id": "Ses05_M",
+      "num_samples": 910,
+      "shapley_mean": 2.1808370911956573e-05,
+      "shapley_std": 0.0003494615462748744,
+      "shapley_min": -0.0005727091633466138,
+      "shapley_max": 0.005851593625498009,
+      "top_indices": [
+        857,
+        579,
+        826,
+        223,
+        582
+      ],
+      "speaker_id": "Ses05_M"
+    }
+  },
+  "speaker_label_contributions": {
+    "Ses01_F": {
+      "group_id": "Ses01_F",
+      "num_speakers": 1,
+      "num_samples": 698,
+      "speakers": {
+        "Ses01_F": {
+          "speaker_id": "Ses01_F",
+          "num_samples": 698,
+          "shapley_mean": -9.596285345723122e-06,
+          "shapley_std": 0.00019909910579374169,
+          "shapley_min": -0.0017430278884462158,
+          "shapley_max": 0.004357569721115538
+        }
+      },
+      "speaker_label": "Ses01_F"
+    },
+    "Ses01_M": {
+      "group_id": "Ses01_M",
+      "num_speakers": 1,
+      "num_samples": 757,
+      "speakers": {
+        "Ses01_M": {
+          "speaker_id": "Ses01_M",
+          "num_samples": 757,
+          "shapley_mean": 1.9078244485729475e-05,
+          "shapley_std": 0.00026071752764770184,
+          "shapley_min": -0.0004482071713147414,
+          "shapley_max": 0.004780876494023903
+        }
+      },
+      "speaker_label": "Ses01_M"
+    },
+    "Ses02_F": {
+      "group_id": "Ses02_F",
+      "num_speakers": 1,
+      "num_samples": 687,
+      "speakers": {
+        "Ses02_F": {
+          "speaker_id": "Ses02_F",
+          "num_samples": 687,
+          "shapley_mean": 1.475176441251007e-05,
+          "shapley_std": 0.0002938369884037715,
+          "shapley_min": -0.0004980079681274907,
+          "shapley_max": 0.004282868525896414
+        }
+      },
+      "speaker_label": "Ses02_F"
+    },
+    "Ses02_M": {
+      "group_id": "Ses02_M",
+      "num_speakers": 1,
+      "num_samples": 762,
+      "speakers": {
+        "Ses02_M": {
+          "speaker_id": "Ses02_M",
+          "num_samples": 762,
+          "shapley_mean": 1.0750959416925468e-05,
+          "shapley_std": 0.00019765921088453462,
+          "shapley_min": -0.000597609561752989,
+          "shapley_max": 0.004731075697211156
+        }
+      },
+      "speaker_label": "Ses02_M"
+    },
+    "Ses03_F": {
+      "group_id": "Ses03_F",
+      "num_speakers": 1,
+      "num_samples": 838,
+      "speakers": {
+        "Ses03_F": {
+          "speaker_id": "Ses03_F",
+          "num_samples": 838,
+          "shapley_mean": 2.5791820783691014e-05,
+          "shapley_std": 0.0003296268887281338,
+          "shapley_min": -0.0006474103585657375,
+          "shapley_max": 0.005278884462151394
+        }
+      },
+      "speaker_label": "Ses03_F"
+    },
+    "Ses03_M": {
+      "group_id": "Ses03_M",
+      "num_speakers": 1,
+      "num_samples": 870,
+      "speakers": {
+        "Ses03_M": {
+          "speaker_id": "Ses03_M",
+          "num_samples": 870,
+          "shapley_mean": 3.093946054861015e-05,
+          "shapley_std": 0.00028295502416735994,
+          "shapley_min": -0.0004482071713147414,
+          "shapley_max": 0.005552788844621515
+        }
+      },
+      "speaker_label": "Ses03_M"
+    },
+    "Ses04_F": {
+      "group_id": "Ses04_F",
+      "num_speakers": 1,
+      "num_samples": 790,
+      "speakers": {
+        "Ses04_F": {
+          "speaker_id": "Ses04_F",
+          "num_samples": 790,
+          "shapley_mean": 2.5278632306218172e-05,
+          "shapley_std": 0.00023774243055655145,
+          "shapley_min": -0.00042330677290836624,
+          "shapley_max": 0.004955179282868526
+        }
+      },
+      "speaker_label": "Ses04_F"
+    },
+    "Ses04_M": {
+      "group_id": "Ses04_M",
+      "num_speakers": 1,
+      "num_samples": 893,
+      "speakers": {
+        "Ses04_M": {
+          "speaker_id": "Ses04_M",
+          "num_samples": 893,
+          "shapley_mean": 1.120936188058516e-05,
+          "shapley_std": 0.0003370730400466765,
+          "shapley_min": -0.000896414342629482,
+          "shapley_max": 0.005577689243027889
+        }
+      },
+      "speaker_label": "Ses04_M"
+    },
+    "Ses05_F": {
+      "group_id": "Ses05_F",
+      "num_speakers": 1,
+      "num_samples": 826,
+      "speakers": {
+        "Ses05_F": {
+          "speaker_id": "Ses05_F",
+          "num_samples": 826,
+          "shapley_mean": 3.165304882166255e-06,
+          "shapley_std": 0.00020169284104385672,
+          "shapley_min": -0.0007470119521912356,
+          "shapley_max": 0.005179282868525899
+        }
+      },
+      "speaker_label": "Ses05_F"
+    },
+    "Ses05_M": {
+      "group_id": "Ses05_M",
+      "num_speakers": 1,
+      "num_samples": 910,
+      "speakers": {
+        "Ses05_M": {
+          "speaker_id": "Ses05_M",
+          "num_samples": 910,
+          "shapley_mean": 2.1808370911956573e-05,
+          "shapley_std": 0.0003494615462748744,
+          "shapley_min": -0.0005727091633466138,
+          "shapley_max": 0.005851593625498009
+        }
+      },
+      "speaker_label": "Ses05_M"
+    }
+  },
+  "speaker_label_contributions_path": "/home/ob3942/repos/WaveCommit/analysis/captum_bench_profiles/aggr_1gpu_jobs8_overlap/sid/data_shapley/speaker_label_contributions",
+  "num_speakers": 10,
+  "speakers": {
+    "Ses01_F": {
+      "group_id": "Ses01_F",
+      "num_samples": 698,
+      "shapley_mean": -9.596285345723122e-06,
+      "shapley_std": 0.00019909910579374169,
+      "shapley_min": -0.0017430278884462158,
+      "shapley_max": 0.004357569721115538,
+      "top_indices": [
+        6,
+        515,
+        674,
+        629,
+        546
+      ],
+      "speaker_id": "Ses01_F"
+    },
+    "Ses01_M": {
+      "group_id": "Ses01_M",
+      "num_samples": 757,
+      "shapley_mean": 1.9078244485729475e-05,
+      "shapley_std": 0.00026071752764770184,
+      "shapley_min": -0.0004482071713147414,
+      "shapley_max": 0.004780876494023903,
+      "top_indices": [
+        528,
+        399,
+        636,
+        71,
+        205
+      ],
+      "speaker_id": "Ses01_M"
+    },
+    "Ses02_F": {
+      "group_id": "Ses02_F",
+      "num_samples": 687,
+      "shapley_mean": 1.475176441251007e-05,
+      "shapley_std": 0.0002938369884037715,
+      "shapley_min": -0.0004980079681274907,
+      "shapley_max": 0.004282868525896414,
+      "top_indices": [
+        178,
+        366,
+        296,
+        588,
+        295
+      ],
+      "speaker_id": "Ses02_F"
+    },
+    "Ses02_M": {
+      "group_id": "Ses02_M",
+      "num_samples": 762,
+      "shapley_mean": 1.0750959416925468e-05,
+      "shapley_std": 0.00019765921088453462,
+      "shapley_min": -0.000597609561752989,
+      "shapley_max": 0.004731075697211156,
+      "top_indices": [
+        3,
+        76,
+        608,
+        324,
+        78
+      ],
+      "speaker_id": "Ses02_M"
+    },
+    "Ses03_F": {
+      "group_id": "Ses03_F",
+      "num_samples": 838,
+      "shapley_mean": 2.5791820783691014e-05,
+      "shapley_std": 0.0003296268887281338,
+      "shapley_min": -0.0006474103585657375,
+      "shapley_max": 0.005278884462151394,
+      "top_indices": [
+        76,
+        336,
+        708,
+        225,
+        441
+      ],
+      "speaker_id": "Ses03_F"
+    },
+    "Ses03_M": {
+      "group_id": "Ses03_M",
+      "num_samples": 870,
+      "shapley_mean": 3.093946054861015e-05,
+      "shapley_std": 0.00028295502416735994,
+      "shapley_min": -0.0004482071713147414,
+      "shapley_max": 0.005552788844621515,
+      "top_indices": [
+        796,
+        106,
+        29,
+        664,
+        744
+      ],
+      "speaker_id": "Ses03_M"
+    },
+    "Ses04_F": {
+      "group_id": "Ses04_F",
+      "num_samples": 790,
+      "shapley_mean": 2.5278632306218172e-05,
+      "shapley_std": 0.00023774243055655145,
+      "shapley_min": -0.00042330677290836624,
+      "shapley_max": 0.004955179282868526,
+      "top_indices": [
+        697,
+        775,
+        578,
+        342,
+        656
+      ],
+      "speaker_id": "Ses04_F"
+    },
+    "Ses04_M": {
+      "group_id": "Ses04_M",
+      "num_samples": 893,
+      "shapley_mean": 1.120936188058516e-05,
+      "shapley_std": 0.0003370730400466765,
+      "shapley_min": -0.000896414342629482,
+      "shapley_max": 0.005577689243027889,
+      "top_indices": [
+        656,
+        182,
+        501,
+        875,
+        277
+      ],
+      "speaker_id": "Ses04_M"
+    },
+    "Ses05_F": {
+      "group_id": "Ses05_F",
+      "num_samples": 826,
+      "shapley_mean": 3.165304882166255e-06,
+      "shapley_std": 0.00020169284104385672,
+      "shapley_min": -0.0007470119521912356,
+      "shapley_max": 0.005179282868525899,
+      "top_indices": [
+        743,
+        784,
+        662,
+        182,
+        710
+      ],
+      "speaker_id": "Ses05_F"
+    },
+    "Ses05_M": {
+      "group_id": "Ses05_M",
+      "num_samples": 910,
+      "shapley_mean": 2.1808370911956573e-05,
+      "shapley_std": 0.0003494615462748744,
+      "shapley_min": -0.0005727091633466138,
+      "shapley_max": 0.005851593625498009,
+      "top_indices": [
+        857,
+        579,
+        826,
+        223,
+        582
+      ],
+      "speaker_id": "Ses05_M"
+    }
+  }
+}

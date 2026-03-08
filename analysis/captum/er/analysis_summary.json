@@ -1,0 +1,12 @@
+{
+  "dataset": "iemocap",
+  "head": "er",
+  "num_samples": 10039,
+  "analyses_run": [
+    "data_shapley"
+  ],
+  "gpus_used": [
+    0
+  ],
+  "memory_fraction": 0.9
+}

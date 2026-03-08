@@ -1,0 +1,6 @@
+{
+  "method": "pydvl_tmc_shapley",
+  "max_iterations": 50,
+  "num_speakers": 0,
+  "speakers": {}
+}

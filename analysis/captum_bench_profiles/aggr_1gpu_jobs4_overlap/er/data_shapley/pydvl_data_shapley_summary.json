@@ -1,0 +1,1183 @@
+{
+  "method": "pydvl_tmc_shapley",
+  "model_type": "finetune_superb_projector_classifier",
+  "feature_head": "er",
+  "feature_model_path": "/home/ob3942/repos/WaveCommit/models/prediction_heads/hubert-large-superb-er",
+  "train_device": "cuda:0",
+  "data_parallel": false,
+  "single_gpu_concurrency_enabled": true,
+  "parallel_jobs_requested": 4,
+  "parallel_jobs_effective": 4,
+  "joblib_backend": "loky",
+  "min_updates": 30,
+  "rtol": 0.1,
+  "total_train_samples": 8031,
+  "total_test_samples": 2008,
+  "dataset_name": "iemocap",
+  "task_mode": "emotion",
+  "group_type": "emotion",
+  "num_groups": 10,
+  "elapsed_seconds": 314.47089672088623,
+  "groups": {
+    "angry": {
+      "group_id": "angry",
+      "num_samples": 1015,
+      "shapley_mean": 1.5259160402724093e-05,
+      "shapley_std": 0.00044593728645211185,
+      "shapley_min": -0.004764276228419654,
+      "shapley_max": 0.00451527224435591,
+      "top_indices": [
+        118,
+        362,
+        230,
+        982,
+        780
+      ],
+      "emotion_label": "angry"
+    },
+    "disgust": {
+      "group_id": "disgust",
+      "num_samples": 2,
+      "shapley_mean": -0.00021580345285524655,
+      "shapley_std": 0.00031540504648074454,
+      "shapley_min": -0.0005312084993359911,
+      "shapley_max": 9.960159362549797e-05,
+      "top_indices": [
+        1,
+        0
+      ],
+      "emotion_label": "disgust"
+    },
+    "excited": {
+      "group_id": "excited",
+      "num_samples": 1581,
+      "shapley_mean": 2.9063589622114516e-05,
+      "shapley_std": 0.0005285097133789751,
+      "shapley_min": -0.0025232403718459502,
+      "shapley_max": 0.007851925630810093,
+      "top_indices": [
+        1103,
+        1012,
+        159,
+        200,
+        359
+      ],
+      "emotion_label": "excited"
+    },
+    "fear": {
+      "group_id": "fear",
+      "num_samples": 85,
+      "shapley_mean": -6.13233341145223e-05,
+      "shapley_std": 0.00038861913597321754,
+      "shapley_min": -0.002822045152722445,
+      "shapley_max": 0.0008134130146082348,
+      "top_indices": [
+        31,
+        33,
+        55,
+        30,
+        20
+      ],
+      "emotion_label": "fear"
+    },
+    "frustrated": {
+      "group_id": "frustrated",
+      "num_samples": 2333,
+      "shapley_mean": 0.00017499654190780817,
+      "shapley_std": 0.0008069096778587985,
+      "shapley_min": -0.0005976095617529875,
+      "shapley_max": 0.009794156706507306,
+      "top_indices": [
+        1581,
+        47,
+        2177,
+        2173,
+        620
+      ],
+      "emotion_label": "frustrated"
+    },
+    "happy": {
+      "group_id": "happy",
+      "num_samples": 525,
+      "shapley_mean": -5.8970467337001217e-05,
+      "shapley_std": 0.0004058373699072653,
+      "shapley_min": -0.005013280212483399,
+      "shapley_max": 0.0021912350597609567,
+      "top_indices": [
+        342,
+        458,
+        375,
+        141,
+        167
+      ],
+      "emotion_label": "happy"
+    },
+    "neutral": {
+      "group_id": "neutral",
+      "num_samples": 1381,
+      "shapley_mean": -8.728061444783265e-05,
+      "shapley_std": 0.00042688155087949636,
+      "shapley_min": -0.005146082337317397,
+      "shapley_max": 0.005810092961487383,
+      "top_indices": [
+        566,
+        238,
+        144,
+        1290,
+        554
+      ],
+      "emotion_label": "neutral"
+    },
+    "other": {
+      "group_id": "other",
+      "num_samples": 21,
+      "shapley_mean": 2.3714665148928066e-06,
+      "shapley_std": 7.42891299846375e-05,
+      "shapley_min": -0.000199203187250996,
+      "shapley_max": 0.00023240371845949524,
+      "top_indices": [
+        18,
+        9,
+        10,
+        17,
+        20
+      ],
+      "emotion_label": "other"
+    },
+    "sad": {
+      "group_id": "sad",
+      "num_samples": 1000,
+      "shapley_mean": 2.191235059760952e-06,
+      "shapley_std": 0.000533027413810012,
+      "shapley_min": -0.004631474103585658,
+      "shapley_max": 0.00443227091633466,
+      "top_indices": [
+        458,
+        925,
+        893,
+        22,
+        34
+      ],
+      "emotion_label": "sad"
+    },
+    "surprise": {
+      "group_id": "surprise",
+      "num_samples": 88,
+      "shapley_mean": -2.1316250150911535e-05,
+      "shapley_std": 0.00024275000787441517,
+      "shapley_min": -0.001709827357237716,
+      "shapley_max": 0.0006640106241699861,
+      "top_indices": [
+        34,
+        22,
+        16,
+        78,
+        56
+      ],
+      "emotion_label": "surprise"
+    }
+  },
+  "speaker_label_contributions": {
+    "angry": {
+      "group_id": "angry",
+      "num_speakers": 10,
+      "num_samples": 1015,
+      "speakers": {
+        "Ses01_F": {
+          "speaker_id": "Ses01_F",
+          "num_samples": 149,
+          "shapley_mean": 2.361916985302634e-05,
+          "shapley_std": 0.00023063174225853943,
+          "shapley_min": -0.0009794156706507309,
+          "shapley_max": 0.0019754316069057103
+        },
+        "Ses01_M": {
+          "speaker_id": "Ses01_M",
+          "num_samples": 70,
+          "shapley_mean": -1.5888825649781764e-05,
+          "shapley_std": 0.000289073986382221,
+          "shapley_min": -0.00202523240371846,
+          "shapley_max": 0.000863213811420983
+        },
+        "Ses02_F": {
+          "speaker_id": "Ses02_F",
+          "num_samples": 61,
+          "shapley_mean": -1.578385909912267e-05,
+          "shapley_std": 0.00037528936126052925,
+          "shapley_min": -0.0015106241699867204,
+          "shapley_max": 0.0017762284196547148
+        },
+        "Ses02_M": {
+          "speaker_id": "Ses02_M",
+          "num_samples": 64,
+          "shapley_mean": -0.00011568310092961487,
+          "shapley_std": 0.0005690357666439459,
+          "shapley_min": -0.003469455511288181,
+          "shapley_max": 0.0004482071713147427
+        },
+        "Ses03_F": {
+          "speaker_id": "Ses03_F",
+          "num_samples": 94,
+          "shapley_mean": 4.997739538300704e-05,
+          "shapley_std": 0.0002454644531069821,
+          "shapley_min": -0.0008300132802124827,
+          "shapley_max": 0.001261620185922977
+        },
+        "Ses03_M": {
+          "speaker_id": "Ses03_M",
+          "num_samples": 137,
+          "shapley_mean": -2.2658756700691147e-05,
+          "shapley_std": 0.0007358000496949975,
+          "shapley_min": -0.004764276228419654,
+          "shapley_max": 0.00451527224435591
+        },
+        "Ses04_F": {
+          "speaker_id": "Ses04_F",
+          "num_samples": 178,
+          "shapley_mean": 3.665114821612429e-05,
+          "shapley_std": 0.00028963685802532664,
+          "shapley_min": -0.002838645418326694,
+          "shapley_max": 0.0009296148738379815
+        },
+        "Ses04_M": {
+          "speaker_id": "Ses04_M",
+          "num_samples": 113,
+          "shapley_mean": 4.34838815828133e-05,
+          "shapley_std": 0.000452036560261959,
+          "shapley_min": -0.0016932270916334665,
+          "shapley_max": 0.004199867197875167
+        },
+        "Ses05_F": {
+          "speaker_id": "Ses05_F",
+          "num_samples": 63,
+          "shapley_mean": 0.00015493581230633036,
+          "shapley_std": 0.0005496939113137872,
+          "shapley_min": -0.0005976095617529875,
+          "shapley_max": 0.00411686586985392
+        },
+        "Ses05_M": {
+          "speaker_id": "Ses05_M",
+          "num_samples": 86,
+          "shapley_mean": -1.5635133883072362e-05,
+          "shapley_std": 0.00046794287836462886,
+          "shapley_min": -0.0039508632138114215,
+          "shapley_max": 0.0006972111553784853
+        }
+      },
+      "emotion_label": "angry"
+    },
+    "disgust": {
+      "group_id": "disgust",
+      "num_speakers": 2,
+      "num_samples": 2,
+      "speakers": {
+        "Ses01_M": {
+          "speaker_id": "Ses01_M",
+          "num_samples": 1,
+          "shapley_mean": 9.960159362549797e-05,
+          "shapley_std": 0.0,
+          "shapley_min": 9.960159362549797e-05,
+          "shapley_max": 9.960159362549797e-05
+        },
+        "Ses03_M": {
+          "speaker_id": "Ses03_M",
+          "num_samples": 1,
+          "shapley_mean": -0.0005312084993359911,
+          "shapley_std": 0.0,
+          "shapley_min": -0.0005312084993359911,
+          "shapley_max": -0.0005312084993359911
+        }
+      },
+      "emotion_label": "disgust"
+    },
+    "excited": {
+      "group_id": "excited",
+      "num_speakers": 10,
+      "num_samples": 1581,
+      "speakers": {
+        "Ses01_F": {
+          "speaker_id": "Ses01_F",
+          "num_samples": 100,
+          "shapley_mean": 8.183930942895086e-05,
+          "shapley_std": 0.0007158440091734179,
+          "shapley_min": -0.001311420982735724,
+          "shapley_max": 0.006557104913678618
+        },
+        "Ses01_M": {
+          "speaker_id": "Ses01_M",
+          "num_samples": 141,
+          "shapley_mean": 4.885893777137313e-05,
+          "shapley_std": 0.0006007076159698559,
+          "shapley_min": -0.0008964143426294823,
+          "shapley_max": 0.006557104913678618
+        },
+        "Ses02_F": {
+          "speaker_id": "Ses02_F",
+          "num_samples": 136,
+          "shapley_mean": 5.2608194672291256e-05,
+          "shapley_std": 0.0003980733916186012,
+          "shapley_min": -0.0018260292164674634,
+          "shapley_max": 0.002224435590969454
+        },
+        "Ses02_M": {
+          "speaker_id": "Ses02_M",
+          "num_samples": 184,
+          "shapley_mean": 9.346671285871004e-05,
+          "shapley_std": 0.0007371844976294139,
+          "shapley_min": -0.001195219123505976,
+          "shapley_max": 0.006557104913678618
+        },
+        "Ses03_F": {
+          "speaker_id": "Ses03_F",
+          "num_samples": 101,
+          "shapley_mean": 8.053594204041976e-06,
+          "shapley_std": 0.0002865899006309911,
+          "shapley_min": -0.0009960159362549805,
+          "shapley_max": 0.0015438247011952191
+        },
+        "Ses03_M": {
+          "speaker_id": "Ses03_M",
+          "num_samples": 177,
+          "shapley_mean": -1.1254417358813402e-05,
+          "shapley_std": 0.00027210342209677755,
+          "shapley_min": -0.0014940239043824712,
+          "shapley_max": 0.0014940239043824694
+        },
+        "Ses04_F": {
+          "speaker_id": "Ses04_F",
+          "num_samples": 209,
+          "shapley_mean": 5.401043354492718e-05,
+          "shapley_std": 0.0006181988834390834,
+          "shapley_min": -0.0009462151394422305,
+          "shapley_max": 0.007851925630810093
+        },
+        "Ses04_M": {
+          "speaker_id": "Ses04_M",
+          "num_samples": 176,
+          "shapley_mean": -1.4430912712785286e-05,
+          "shapley_std": 0.0005072997970275181,
+          "shapley_min": -0.0014276228419654723,
+          "shapley_max": 0.004598273572377159
+        },
+        "Ses05_F": {
+          "speaker_id": "Ses05_F",
+          "num_samples": 126,
+          "shapley_mean": 2.503214654609068e-06,
+          "shapley_std": 0.000307342093086417,
+          "shapley_min": -0.0025232403718459502,
+          "shapley_max": 0.0011454183266932272
+        },
+        "Ses05_M": {
+          "speaker_id": "Ses05_M",
+          "num_samples": 231,
+          "shapley_mean": -5.892734976400384e-06,
+          "shapley_std": 0.0004973210767612429,
+          "shapley_min": -0.0011952191235059767,
+          "shapley_max": 0.006557104913678618
+        }
+      },
+      "emotion_label": "excited"
+    },
+    "fear": {
+      "group_id": "fear",
+      "num_speakers": 10,
+      "num_samples": 85,
+      "speakers": {
+        "Ses01_F": {
+          "speaker_id": "Ses01_F",
+          "num_samples": 8,
+          "shapley_mean": -2.2825365205843054e-05,
+          "shapley_std": 0.0001199756849723919,
+          "shapley_min": -0.0003320053120849932,
+          "shapley_max": 6.640106241700046e-05
+        },
+        "Ses01_M": {
+          "speaker_id": "Ses01_M",
+          "num_samples": 8,
+          "shapley_mean": -3.1125498007968113e-05,
+          "shapley_std": 0.00013187484931470486,
+          "shapley_min": -0.0003652058432934925,
+          "shapley_max": 0.00011620185922974761
+        },
+        "Ses02_F": {
+          "speaker_id": "Ses02_F",
+          "num_samples": 8,
+          "shapley_mean": 2.9050464807436912e-05,
+          "shapley_std": 8.331200157654684e-05,
+          "shapley_min": -1.6600265604249657e-05,
+          "shapley_max": 0.00024900398406374496
+        },
+        "Ses02_M": {
+          "speaker_id": "Ses02_M",
+          "num_samples": 8,
+          "shapley_mean": -4.3575697211155375e-05,
+          "shapley_std": 0.000169277438906981,
+          "shapley_min": -0.0004814077025232403,
+          "shapley_max": 9.960159362549797e-05
+        },
+        "Ses03_F": {
+          "speaker_id": "Ses03_F",
+          "num_samples": 7,
+          "shapley_mean": -0.0002964333143616013,
+          "shapley_std": 0.0006729284347424192,
+          "shapley_min": -0.0019422310756972117,
+          "shapley_max": 1.6600265604249657e-05
+        },
+        "Ses03_M": {
+          "speaker_id": "Ses03_M",
+          "num_samples": 4,
+          "shapley_mean": 4.150066401062414e-06,
+          "shapley_std": 1.8089720051214602e-05,
+          "shapley_min": -1.6600265604249657e-05,
+          "shapley_max": 3.3200531208499315e-05
+        },
+        "Ses04_F": {
+          "speaker_id": "Ses04_F",
+          "num_samples": 7,
+          "shapley_mean": 0.00012094479225953345,
+          "shapley_std": 0.00028293096285229093,
+          "shapley_min": 0.0,
+          "shapley_max": 0.0008134130146082348
+        },
+        "Ses04_M": {
+          "speaker_id": "Ses04_M",
+          "num_samples": 12,
+          "shapley_mean": -5.533421868083221e-06,
+          "shapley_std": 2.9798388707030222e-05,
+          "shapley_min": -9.960159362549797e-05,
+          "shapley_max": 3.3200531208499315e-05
+        },
+        "Ses05_F": {
+          "speaker_id": "Ses05_F",
+          "num_samples": 11,
+          "shapley_mean": -0.00030785947120608485,
+          "shapley_std": 0.0008013699348713168,
+          "shapley_min": -0.002822045152722445,
+          "shapley_max": 0.0
+        },
+        "Ses05_M": {
+          "speaker_id": "Ses05_M",
+          "num_samples": 12,
+          "shapley_mean": -7.17154562008641e-20,
+          "shapley_std": 3.773290642149709e-05,
+          "shapley_min": -8.300132802124917e-05,
+          "shapley_max": 9.960159362549797e-05
+        }
+      },
+      "emotion_label": "fear"
+    },
+    "frustrated": {
+      "group_id": "frustrated",
+      "num_speakers": 10,
+      "num_samples": 2333,
+      "speakers": {
+        "Ses01_F": {
+          "speaker_id": "Ses01_F",
+          "num_samples": 153,
+          "shapley_mean": 0.00015753977553836947,
+          "shapley_std": 0.0004928935535974731,
+          "shapley_min": -0.00013280212483399729,
+          "shapley_max": 0.0032868525896414345
+        },
+        "Ses01_M": {
+          "speaker_id": "Ses01_M",
+          "num_samples": 201,
+          "shapley_mean": 0.00015435769360369473,
+          "shapley_std": 0.0007794328544886804,
+          "shapley_min": -0.0002822045152722442,
+          "shapley_max": 0.009744355909694557
+        },
+        "Ses02_F": {
+          "speaker_id": "Ses02_F",
+          "num_samples": 207,
+          "shapley_mean": 0.00013817515766242604,
+          "shapley_std": 0.0004203014905411768,
+          "shapley_min": -0.0004150066401062414,
+          "shapley_max": 0.0027888446215139427
+        },
+        "Ses02_M": {
+          "speaker_id": "Ses02_M",
+          "num_samples": 220,
+          "shapley_mean": 0.00015325063382832314,
+          "shapley_std": 0.0005372567175952619,
+          "shapley_min": -0.00023240371845949524,
+          "shapley_max": 0.004116865869853919
+        },
+        "Ses03_F": {
+          "speaker_id": "Ses03_F",
+          "num_samples": 275,
+          "shapley_mean": 0.00018869974646867083,
+          "shapley_std": 0.0008134258915414856,
+          "shapley_min": -0.00043160690571049306,
+          "shapley_max": 0.009727755644090307
+        },
+        "Ses03_M": {
+          "speaker_id": "Ses03_M",
+          "num_samples": 228,
+          "shapley_mean": 0.00015428053866405728,
+          "shapley_std": 0.0005877098993832403,
+          "shapley_min": -0.0005976095617529875,
+          "shapley_max": 0.005793492695883137
+        },
+        "Ses04_F": {
+          "speaker_id": "Ses04_F",
+          "num_samples": 229,
+          "shapley_mean": 0.00012374084448233273,
+          "shapley_std": 0.0006754852426946209,
+          "shapley_min": -0.0002158034528552456,
+          "shapley_max": 0.009661354581673309
+        },
+        "Ses04_M": {
+          "speaker_id": "Ses04_M",
+          "num_samples": 338,
+          "shapley_mean": 0.00025072294647838627,
+          "shapley_std": 0.0011708782993270078,
+          "shapley_min": -0.00034860557768924295,
+          "shapley_max": 0.009794156706507306
+        },
+        "Ses05_F": {
+          "speaker_id": "Ses05_F",
+          "num_samples": 214,
+          "shapley_mean": 0.00021882873490461837,
+          "shapley_std": 0.0010107399666799374,
+          "shapley_min": -0.00046480743691899054,
+          "shapley_max": 0.009711155378486058
+        },
+        "Ses05_M": {
+          "speaker_id": "Ses05_M",
+          "num_samples": 268,
+          "shapley_mean": 0.00016358694574934097,
+          "shapley_std": 0.0008827108047119055,
+          "shapley_min": -0.0005810092961487386,
+          "shapley_max": 0.009694555112881809
+        }
+      },
+      "emotion_label": "frustrated"
+    },
+    "happy": {
+      "group_id": "happy",
+      "num_speakers": 10,
+      "num_samples": 525,
+      "speakers": {
+        "Ses01_F": {
+          "speaker_id": "Ses01_F",
+          "num_samples": 62,
+          "shapley_mean": 3.7752216938696804e-05,
+          "shapley_std": 0.00017195165843721466,
+          "shapley_min": -0.00011620185922974761,
+          "shapley_max": 0.0012450199203187249
+        },
+        "Ses01_M": {
+          "speaker_id": "Ses01_M",
+          "num_samples": 55,
+          "shapley_mean": -3.984063745019919e-05,
+          "shapley_std": 0.0004774374493949652,
+          "shapley_min": -0.0019090305444887125,
+          "shapley_max": 0.0021912350597609567
+        },
+        "Ses02_F": {
+          "speaker_id": "Ses02_F",
+          "num_samples": 56,
+          "shapley_mean": -4.1797097324985785e-05,
+          "shapley_std": 0.00023732722179449907,
+          "shapley_min": -0.0014608233731739715,
+          "shapley_max": 0.00018260292164674622
+        },
+        "Ses02_M": {
+          "speaker_id": "Ses02_M",
+          "num_samples": 46,
+          "shapley_mean": -0.00015337201916969806,
+          "shapley_std": 0.0006421160892836392,
+          "shapley_min": -0.003652058432934928,
+          "shapley_max": 0.0005146082337317393
+        },
+        "Ses03_F": {
+          "speaker_id": "Ses03_F",
+          "num_samples": 76,
+          "shapley_mean": -3.472950304046971e-05,
+          "shapley_std": 0.00017331557727736694,
+          "shapley_min": -0.0012782204515272245,
+          "shapley_max": 0.00013280212483399729
+        },
+        "Ses03_M": {
+          "speaker_id": "Ses03_M",
+          "num_samples": 53,
+          "shapley_mean": -5.54386228670225e-05,
+          "shapley_std": 0.0003028138627500004,
+          "shapley_min": -0.0014608233731739709,
+          "shapley_max": 0.0006972111553784856
+        },
+        "Ses04_F": {
+          "speaker_id": "Ses04_F",
+          "num_samples": 30,
+          "shapley_mean": -0.00016710934041611335,
+          "shapley_std": 0.0009000338177143402,
+          "shapley_min": -0.005013280212483399,
+          "shapley_max": 3.3200531208499315e-05
+        },
+        "Ses04_M": {
+          "speaker_id": "Ses04_M",
+          "num_samples": 27,
+          "shapley_mean": -5.041562146475827e-05,
+          "shapley_std": 0.00024590987819068195,
+          "shapley_min": -0.001278220451527225,
+          "shapley_max": 9.960159362549797e-05
+        },
+        "Ses05_F": {
+          "speaker_id": "Ses05_F",
+          "num_samples": 66,
+          "shapley_mean": -5.583725703247619e-05,
+          "shapley_std": 0.00028552334535854177,
+          "shapley_min": -0.0015604249667994696,
+          "shapley_max": 0.0003984063745019916
+        },
+        "Ses05_M": {
+          "speaker_id": "Ses05_M",
+          "num_samples": 54,
+          "shapley_mean": -0.00011251291131769216,
+          "shapley_std": 0.0004290533471262993,
+          "shapley_min": -0.0022410358565737045,
+          "shapley_max": 0.00018260292164674622
+        }
+      },
+      "emotion_label": "happy"
+    },
+    "neutral": {
+      "group_id": "neutral",
+      "num_speakers": 10,
+      "num_samples": 1381,
+      "speakers": {
+        "Ses01_F": {
+          "speaker_id": "Ses01_F",
+          "num_samples": 149,
+          "shapley_mean": -3.6877100100715754e-05,
+          "shapley_std": 0.0005516385423092847,
+          "shapley_min": -0.0022410358565737054,
+          "shapley_max": 0.005727091633466135
+        },
+        "Ses01_M": {
+          "speaker_id": "Ses01_M",
+          "num_samples": 172,
+          "shapley_mean": -9.448639550325831e-05,
+          "shapley_std": 0.00040643000866021507,
+          "shapley_min": -0.0033366533864541835,
+          "shapley_max": 0.001245019920318725
+        },
+        "Ses02_F": {
+          "speaker_id": "Ses02_F",
+          "num_samples": 109,
+          "shapley_mean": -7.660489540309713e-05,
+          "shapley_std": 0.0002746075789619508,
+          "shapley_min": -0.0016268260292164683,
+          "shapley_max": 0.0005644090305444885
+        },
+        "Ses02_M": {
+          "speaker_id": "Ses02_M",
+          "num_samples": 180,
+          "shapley_mean": -6.298878559834735e-05,
+          "shapley_std": 0.00035214349502908345,
+          "shapley_min": -0.003037848605577691,
+          "shapley_max": 0.0011620185922974781
+        },
+        "Ses03_F": {
+          "speaker_id": "Ses03_F",
+          "num_samples": 100,
+          "shapley_mean": -8.399734395750334e-05,
+          "shapley_std": 0.00025101907080187023,
+          "shapley_min": -0.0016766268260292178,
+          "shapley_max": 0.000863213811420983
+        },
+        "Ses03_M": {
+          "speaker_id": "Ses03_M",
+          "num_samples": 149,
+          "shapley_mean": -8.355838391400841e-05,
+          "shapley_std": 0.0003328754968527694,
+          "shapley_min": -0.00245683930942895,
+          "shapley_max": 0.0004980079681274898
+        },
+        "Ses04_F": {
+          "speaker_id": "Ses04_F",
+          "num_samples": 63,
+          "shapley_mean": -5.059128565104667e-05,
+          "shapley_std": 0.0008727956192215871,
+          "shapley_min": -0.002473439575033202,
+          "shapley_max": 0.005810092961487383
+        },
+        "Ses04_M": {
+          "speaker_id": "Ses04_M",
+          "num_samples": 138,
+          "shapley_mean": -0.00016431857112612352,
+          "shapley_std": 0.0005427303823583007,
+          "shapley_min": -0.005146082337317397,
+          "shapley_max": 0.0005810092961487381
+        },
+        "Ses05_F": {
+          "speaker_id": "Ses05_F",
+          "num_samples": 188,
+          "shapley_mean": -0.00011046240569636355,
+          "shapley_std": 0.00034962693744384837,
+          "shapley_min": -0.0024900398406374523,
+          "shapley_max": 0.0005478087649402388
+        },
+        "Ses05_M": {
+          "speaker_id": "Ses05_M",
+          "num_samples": 133,
+          "shapley_mean": -8.736981896973511e-05,
+          "shapley_std": 0.0002929780584443904,
+          "shapley_min": -0.0023074369189907047,
+          "shapley_max": 0.0007470119521912355
+        }
+      },
+      "emotion_label": "neutral"
+    },
+    "other": {
+      "group_id": "other",
+      "num_speakers": 10,
+      "num_samples": 21,
+      "speakers": {
+        "Ses01_F": {
+          "speaker_id": "Ses01_F",
+          "num_samples": 5,
+          "shapley_mean": -3.98406374501992e-05,
+          "shapley_std": 7.96812749003984e-05,
+          "shapley_min": -0.000199203187250996,
+          "shapley_max": 0.0
+        },
+        "Ses01_M": {
+          "speaker_id": "Ses01_M",
+          "num_samples": 1,
+          "shapley_mean": 0.0,
+          "shapley_std": 0.0,
+          "shapley_min": 0.0,
+          "shapley_max": 0.0
+        },
+        "Ses02_F": {
+          "speaker_id": "Ses02_F",
+          "num_samples": 2,
+          "shapley_mean": 1.660026560424966e-05,
+          "shapley_std": 3.3200531208499315e-05,
+          "shapley_min": -1.6600265604249657e-05,
+          "shapley_max": 4.980079681274898e-05
+        },
+        "Ses02_M": {
+          "speaker_id": "Ses02_M",
+          "num_samples": 1,
+          "shapley_mean": 0.0,
+          "shapley_std": 0.0,
+          "shapley_min": 0.0,
+          "shapley_max": 0.0
+        },
+        "Ses03_F": {
+          "speaker_id": "Ses03_F",
+          "num_samples": 1,
+          "shapley_mean": 9.960159362549797e-05,
+          "shapley_std": 0.0,
+          "shapley_min": 9.960159362549797e-05,
+          "shapley_max": 9.960159362549797e-05
+        },
+        "Ses03_M": {
+          "speaker_id": "Ses03_M",
+          "num_samples": 1,
+          "shapley_mean": 0.0,
+          "shapley_std": 0.0,
+          "shapley_min": 0.0,
+          "shapley_max": 0.0
+        },
+        "Ses04_F": {
+          "speaker_id": "Ses04_F",
+          "num_samples": 3,
+          "shapley_mean": 8.300132802124831e-05,
+          "shapley_std": 0.00010586059356855346,
+          "shapley_min": 0.0,
+          "shapley_max": 0.00023240371845949524
+        },
+        "Ses04_M": {
+          "speaker_id": "Ses04_M",
+          "num_samples": 4,
+          "shapley_mean": -3.3200531208499315e-05,
+          "shapley_std": 3.52144811347882e-05,
+          "shapley_min": -8.300132802124828e-05,
+          "shapley_max": 0.0
+        },
+        "Ses05_F": {
+          "speaker_id": "Ses05_F",
+          "num_samples": 1,
+          "shapley_mean": 0.0,
+          "shapley_std": 0.0,
+          "shapley_min": 0.0,
+          "shapley_max": 0.0
+        },
+        "Ses05_M": {
+          "speaker_id": "Ses05_M",
+          "num_samples": 2,
+          "shapley_mean": 0.0,
+          "shapley_std": 0.0,
+          "shapley_min": 0.0,
+          "shapley_max": 0.0
+        }
+      },
+      "emotion_label": "other"
+    },
+    "sad": {
+      "group_id": "sad",
+      "num_speakers": 10,
+      "num_samples": 1000,
+      "speakers": {
+        "Ses01_F": {
+          "speaker_id": "Ses01_F",
+          "num_samples": 82,
+          "shapley_mean": -4.635927833381918e-05,
+          "shapley_std": 0.0006923099499181956,
+          "shapley_min": -0.004631474103585658,
+          "shapley_max": 0.001328021248339973
+        },
+        "Ses01_M": {
+          "speaker_id": "Ses01_M",
+          "num_samples": 94,
+          "shapley_mean": 4.485603684552564e-05,
+          "shapley_std": 0.0004828052467837172,
+          "shapley_min": -0.0008798140770252337,
+          "shapley_max": 0.00443227091633466
+        },
+        "Ses02_F": {
+          "speaker_id": "Ses02_F",
+          "num_samples": 97,
+          "shapley_mean": 1.0268205528401861e-05,
+          "shapley_std": 0.0001722421550493562,
+          "shapley_min": -0.001145418326693228,
+          "shapley_max": 0.0004980079681274904
+        },
+        "Ses02_M": {
+          "speaker_id": "Ses02_M",
+          "num_samples": 71,
+          "shapley_mean": -1.1690327890317409e-06,
+          "shapley_std": 0.00031111597683792255,
+          "shapley_min": -0.0024236387782204517,
+          "shapley_max": 0.0006474103585657371
+        },
+        "Ses03_F": {
+          "speaker_id": "Ses03_F",
+          "num_samples": 171,
+          "shapley_mean": 2.213368747233292e-05,
+          "shapley_std": 0.0006316143023416787,
+          "shapley_min": -0.0037350597609561776,
+          "shapley_max": 0.0041666666666666675
+        },
+        "Ses03_M": {
+          "speaker_id": "Ses03_M",
+          "num_samples": 107,
+          "shapley_mean": -3.39762445544923e-05,
+          "shapley_std": 0.0006546531297502997,
+          "shapley_min": -0.00403386454183267,
+          "shapley_max": 0.004150066401062418
+        },
+        "Ses04_F": {
+          "speaker_id": "Ses04_F",
+          "num_samples": 53,
+          "shapley_mean": 5.9510386128441795e-06,
+          "shapley_std": 0.0008927474431071672,
+          "shapley_min": -0.0032038512616201853,
+          "shapley_max": 0.004365869853917664
+        },
+        "Ses04_M": {
+          "speaker_id": "Ses04_M",
+          "num_samples": 71,
+          "shapley_mean": -5.3307895179844026e-05,
+          "shapley_std": 0.0005162002977472353,
+          "shapley_min": -0.004299468791500665,
+          "shapley_max": 0.00038180610889774206
+        },
+        "Ses05_F": {
+          "speaker_id": "Ses05_F",
+          "num_samples": 150,
+          "shapley_mean": -3.652058432934881e-06,
+          "shapley_std": 0.0004687818993733542,
+          "shapley_min": -0.0022908366533864553,
+          "shapley_max": 0.0024236387782204526
+        },
+        "Ses05_M": {
+          "speaker_id": "Ses05_M",
+          "num_samples": 104,
+          "shapley_mean": 4.549111247318417e-05,
+          "shapley_std": 0.00019506324365618972,
+          "shapley_min": -0.0011288180610889776,
+          "shapley_max": 0.0006640106241699861
+        }
+      },
+      "emotion_label": "sad"
+    },
+    "surprise": {
+      "group_id": "surprise",
+      "num_speakers": 10,
+      "num_samples": 88,
+      "speakers": {
+        "Ses01_F": {
+          "speaker_id": "Ses01_F",
+          "num_samples": 14,
+          "shapley_mean": 2.3714665148928082e-06,
+          "shapley_std": 2.335623648690025e-05,
+          "shapley_min": -1.6600265604249657e-05,
+          "shapley_max": 8.300132802124828e-05
+        },
+        "Ses01_M": {
+          "speaker_id": "Ses01_M",
+          "num_samples": 7,
+          "shapley_mean": -0.0003770631758679568,
+          "shapley_std": 0.0006578586603131531,
+          "shapley_min": -0.001709827357237716,
+          "shapley_max": 8.300132802124828e-05
+        },
+        "Ses02_F": {
+          "speaker_id": "Ses02_F",
+          "num_samples": 6,
+          "shapley_mean": -3.0433820274457707e-05,
+          "shapley_std": 3.7631337175562846e-05,
+          "shapley_min": -8.300132802124828e-05,
+          "shapley_max": 1.6600265604249657e-05
+        },
+        "Ses02_M": {
+          "speaker_id": "Ses02_M",
+          "num_samples": 8,
+          "shapley_mean": 6.017596281540489e-05,
+          "shapley_std": 0.0002866776835489234,
+          "shapley_min": -0.0004482071713147415,
+          "shapley_max": 0.0006640106241699861
+        },
+        "Ses03_F": {
+          "speaker_id": "Ses03_F",
+          "num_samples": 10,
+          "shapley_mean": 4.980079681274897e-06,
+          "shapley_std": 1.4940239043824692e-05,
+          "shapley_min": -1.6600265604249657e-05,
+          "shapley_max": 3.3200531208499315e-05
+        },
+        "Ses03_M": {
+          "speaker_id": "Ses03_M",
+          "num_samples": 12,
+          "shapley_mean": -5.533421868083225e-05,
+          "shapley_std": 0.00012593854223927678,
+          "shapley_min": -0.0004316069057104917,
+          "shapley_max": 0.0
+        },
+        "Ses04_F": {
+          "speaker_id": "Ses04_F",
+          "num_samples": 7,
+          "shapley_mean": 5.691519635742731e-05,
+          "shapley_std": 8.221843968582654e-05,
+          "shapley_min": 0.0,
+          "shapley_max": 0.0002324037184594946
+        },
+        "Ses04_M": {
+          "speaker_id": "Ses04_M",
+          "num_samples": 6,
+          "shapley_mean": 1.3833554670208048e-05,
+          "shapley_std": 2.4277789916423526e-05,
+          "shapley_min": 0.0,
+          "shapley_max": 6.640106241699864e-05
+        },
+        "Ses05_F": {
+          "speaker_id": "Ses05_F",
+          "num_samples": 7,
+          "shapley_mean": -2.3714665148928082e-06,
+          "shapley_std": 3.370487194923138e-05,
+          "shapley_min": -4.9800796812748986e-05,
+          "shapley_max": 6.640106241699864e-05
+        },
+        "Ses05_M": {
+          "speaker_id": "Ses05_M",
+          "num_samples": 11,
+          "shapley_mean": 5.281902692261258e-05,
+          "shapley_std": 0.00011670056096330561,
+          "shapley_min": -1.6600265604249657e-05,
+          "shapley_max": 0.0003652058432934928
+        }
+      },
+      "emotion_label": "surprise"
+    }
+  },
+  "speaker_label_contributions_path": "/home/ob3942/repos/WaveCommit/analysis/captum_bench_profiles/aggr_1gpu_jobs4_overlap/er/data_shapley/speaker_label_contributions",
+  "num_emotions": 10,
+  "emotions": {
+    "angry": {
+      "group_id": "angry",
+      "num_samples": 1015,
+      "shapley_mean": 1.5259160402724093e-05,
+      "shapley_std": 0.00044593728645211185,
+      "shapley_min": -0.004764276228419654,
+      "shapley_max": 0.00451527224435591,
+      "top_indices": [
+        118,
+        362,
+        230,
+        982,
+        780
+      ],
+      "emotion_label": "angry"
+    },
+    "disgust": {
+      "group_id": "disgust",
+      "num_samples": 2,
+      "shapley_mean": -0.00021580345285524655,
+      "shapley_std": 0.00031540504648074454,
+      "shapley_min": -0.0005312084993359911,
+      "shapley_max": 9.960159362549797e-05,
+      "top_indices": [
+        1,
+        0
+      ],
+      "emotion_label": "disgust"
+    },
+    "excited": {
+      "group_id": "excited",
+      "num_samples": 1581,
+      "shapley_mean": 2.9063589622114516e-05,
+      "shapley_std": 0.0005285097133789751,
+      "shapley_min": -0.0025232403718459502,
+      "shapley_max": 0.007851925630810093,
+      "top_indices": [
+        1103,
+        1012,
+        159,
+        200,
+        359
+      ],
+      "emotion_label": "excited"
+    },
+    "fear": {
+      "group_id": "fear",
+      "num_samples": 85,
+      "shapley_mean": -6.13233341145223e-05,
+      "shapley_std": 0.00038861913597321754,
+      "shapley_min": -0.002822045152722445,
+      "shapley_max": 0.0008134130146082348,
+      "top_indices": [
+        31,
+        33,
+        55,
+        30,
+        20
+      ],
+      "emotion_label": "fear"
+    },
+    "frustrated": {
+      "group_id": "frustrated",
+      "num_samples": 2333,
+      "shapley_mean": 0.00017499654190780817,
+      "shapley_std": 0.0008069096778587985,
+      "shapley_min": -0.0005976095617529875,
+      "shapley_max": 0.009794156706507306,
+      "top_indices": [
+        1581,
+        47,
+        2177,
+        2173,
+        620
+      ],
+      "emotion_label": "frustrated"
+    },
+    "happy": {
+      "group_id": "happy",
+      "num_samples": 525,
+      "shapley_mean": -5.8970467337001217e-05,
+      "shapley_std": 0.0004058373699072653,
+      "shapley_min": -0.005013280212483399,
+      "shapley_max": 0.0021912350597609567,
+      "top_indices": [
+        342,
+        458,
+        375,
+        141,
+        167
+      ],
+      "emotion_label": "happy"
+    },
+    "neutral": {
+      "group_id": "neutral",
+      "num_samples": 1381,
+      "shapley_mean": -8.728061444783265e-05,
+      "shapley_std": 0.00042688155087949636,
+      "shapley_min": -0.005146082337317397,
+      "shapley_max": 0.005810092961487383,
+      "top_indices": [
+        566,
+        238,
+        144,
+        1290,
+        554
+      ],
+      "emotion_label": "neutral"
+    },
+    "other": {
+      "group_id": "other",
+      "num_samples": 21,
+      "shapley_mean": 2.3714665148928066e-06,
+      "shapley_std": 7.42891299846375e-05,
+      "shapley_min": -0.000199203187250996,
+      "shapley_max": 0.00023240371845949524,
+      "top_indices": [
+        18,
+        9,
+        10,
+        17,
+        20
+      ],
+      "emotion_label": "other"
+    },
+    "sad": {
+      "group_id": "sad",
+      "num_samples": 1000,
+      "shapley_mean": 2.191235059760952e-06,
+      "shapley_std": 0.000533027413810012,
+      "shapley_min": -0.004631474103585658,
+      "shapley_max": 0.00443227091633466,
+      "top_indices": [
+        458,
+        925,
+        893,
+        22,
+        34
+      ],
+      "emotion_label": "sad"
+    },
+    "surprise": {
+      "group_id": "surprise",
+      "num_samples": 88,
+      "shapley_mean": -2.1316250150911535e-05,
+      "shapley_std": 0.00024275000787441517,
+      "shapley_min": -0.001709827357237716,
+      "shapley_max": 0.0006640106241699861,
+      "top_indices": [
+        34,
+        22,
+        16,
+        78,
+        56
+      ],
+      "emotion_label": "surprise"
+    }
+  },
+  "emotion_to_index": {
+    "angry": 0,
+    "disgust": 1,
+    "excited": 2,
+    "fear": 3,
+    "frustrated": 4,
+    "happy": 5,
+    "neutral": 6,
+    "other": 7,
+    "sad": 8,
+    "surprise": 9
+  },
+  "emotion_counts": {
+    "neutral": 1726,
+    "frustrated": 2917,
+    "angry": 1269,
+    "sad": 1250,
+    "happy": 656,
+    "excited": 1976,
+    "fear": 107,
+    "surprise": 110,
+    "other": 26,
+    "disgust": 2
+  }
+}
