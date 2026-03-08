@@ -9,3 +9,5 @@ analysis/captum/er/integrated_gradients/Ses*
 temp/*
 commitments/*
 *.pyc
+tests
+tests*
